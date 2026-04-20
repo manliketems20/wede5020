@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse The Flour and Honey Bakery menu: sourdough breads, celebration cakes, pastries and seasonal specials. Pre-order from Observatory, Cape Town.">
+    <title>Our Menu | The Flour Honey Bakery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+ Garamond: ital, wght@0, 400;0, 600;0, 700;1, 400&famiLy=Open+Sans: wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style-main.css">
+<link rel="stylesheet" href="css/style-responsive.css">
+</head>
+
+<!--HEADER AND NAVIGATION-->
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="The Flour and Honey Bakery Logo">
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active>">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="products.html">Menu</a></li>
+                <li><a href="enquiry.html" class="btn-nav">Pre-Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+    </button>
+    </div>
+</header>
+
+ <main>
+ <!--PAGE HERO-->
+ <section class="page-hero">
+  <div class="page-hero-content"> 
+  <p class="breadcrumb"> 
+    <a href="index.html">Home</a> Menu </p>
+     <h1>Our Menu</h1> 
+     <p class="hero-tagline"> Everything baked fresh to order. Pre-orders close Sunday night. </p> 
+    </div> </section> 
+    
+    <!--ORDERING INFORMATION BANNER-->
+
+    <div class="ordering-banner">
+        <p>
+             <strong>How ordering works:</strong> Pre-orders open <strong>Monday</strong> each week and close 
+             <strong>Sunday at 20:00</strong> for collection the following 
+             <strong>Friday Saturday</strong>. 
+             <a href="enquiry.html">Place your order</a> 
+            </p>
+         </div>
+
+         <!--CATEGORY NAVIGATION TABS--> 
+         <div class="category-tabs" role="tablist"aria- label="Product categories">
+
+
+           <button class="tab-btn active"
+role="tab" aria-selected="true" aria-controls="panel-breads"
+id="tab-breads"
+onc lick="switchTab( 'breads')">
+Breads 
+           </button>
+
+
+           <button class="tab-btn"
+role="tab" aria-selected="false" aria-controls="panel-cakes"
+id="tab-cakes"
+onc lick="switchTab( 'cakes')">
+Cakes</button>
+
+
+<button class="tab-btn"
+role="tab" aria-selected="false" aria-controls="panel-pastries"
+id="tab-pastries"
+onc lick=" switchTab('pastries') ">Pastries</button>
+
+<button class="tab-btn"
+role="tab" aria-selected="false" aria-controls="panel-seasonal"
+id="tab-seasonal"
+onclick="switchTab(' seasonal ')">Seasonal </button>
+
+         </div>
+
+         
+        <!--BREADS PANEL --> 
+
+        <section class="product-panel active" id="panel-breads" role="tabpanel" aria- labelledby="tab-breads"> 
+        <div class="panel-intro"> 
+        <h2>Sourdough Breads</h2> 
+        <p>All breads use a 72-hour cold ferment.</p>
+    </div> 
+    <div class="product-grid"> 
+        <!--PRODUCT CARD 1--> 
+
+        <article class="product-card"> 
+        <div class="product-img-wrap"> 
+        <img src="images/products/sourdough-country.jpg" alt="Round country sourdough loaf with scoring pattern on top">
+        <span class="product-bdge">Best Seller</span>
+    </div> 
+    <div class="product-info"> 
+    <h3>Country Sourdough</h3> 
+    <p>Open crumb, blistered crust, complex tangy flavour developed over three days.</p> 
+    <div class="product-meta"> 
+    <span class="allergen" title="Contains gluten"> Gluten 
+    </span>
+</div>
+
+
+<div Elass="product-footer">
+<span class="price">R 85 per loaf</span>
+<a href="enquiry.html"
+class="btn-secondary">Pre-Order</a>
+  </div>
+</div>
+</article>
+<!--Article for each product-->
+</div>
+</section>
+<!--CAKES PANEL-->
+<section class="product-panel"
+id="panel-cakes" role="tabpanel"
+aria- label ledby="tab-cakes">
+<div class="panel-intro">
+<h2>Celebration Cakes</h2>
+<p>Custom cakes require «strong>2 weeks' notice</strong>.
+<a href="enquiry.html">Enquire here.</a>
+</p> </div>
+<div class="product-grid">
+  </div>
+</section>  
+
+
+<!--Product cards-->
+
+
+<!-- PASTRIES PANEL -->
+<section class="product -panel"
+id="panel-pastries" role="tabpanel"
+aria- label ledby="tab-pastries">
+<div class="panel-intro">
+<h2>Pastries Viennoiserie</h2>
+<p>Available in limited quantities order early.</p>
+ </div> <div class="product-grid">
+</div>
+</section>
+
+
+
+<!--Product cards-->
+
+
+
+
+<!--SEASONAL PANEL -->
+<section class="product -panel"
+id="panel-seasonal" role="tabpanel"
+aria- labelledby="tab-seasonal">
+<div class="panel-intro">
+<h2>Seasonal Specials</h2>
+<p>Rotate throughout the year. Follow us on Facebook. </p>
+role="tabpanel"
+aria- labelledby="tab-seasonal">
+<div class="Arpanel-intro">
+<h2>Seasonal Specials</h2>
+<p>Rotate throughout the year. Follow us on Facebook.</p>
+
+
+</div>
+<div class="product-grid">
+<I-- paste product cards here -->
+</div>
+</section>
+
+
+<!--MOBILE STICKY CTA BAR -->
+<div class="mobile-cta-bar">
+<a href="enquiry.html" class="btn-primary">
+Place a Pre-Order
+</a>
+</div>
+
+</main>
+</body>
+</html>
